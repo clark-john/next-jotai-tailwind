@@ -13,12 +13,20 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org" target="_blank">Next.js!</a>
         </h1>
-
+        <div className="text-xl mt-4">
+          Together with {' '} 
+          <a href="https://tailwindcss.com" target="_blank">
+            Tailwind CSS
+          </a> and {' '}
+          <a href="https://jotai.org/" target="_blank">
+            Jotai
+          </a>
+        </div>
         <p className={styles.description}>
           Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code}>pages/index.jsx</code>
         </p>
 
         <div className={styles.grid}>
